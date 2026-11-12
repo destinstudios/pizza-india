@@ -1,0 +1,540 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11110f">
+  <meta name="description" content="Pizza India, Jasra, Prayagraj. Enjoy delicious pizzas, cheesy sides and great moments.">
+  <title>Pizza India | Freshly Baked Happiness</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+  <div class="announcement">
+    HOT, FRESH & CHEESY <span>✦</span> MADE FOR YOUR CRAVINGS
+  </div>
+
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="brand">
+      <img src="assets/pizza-india-logo.jpg" alt="Pizza India Logo">
+      <span>
+        <strong>PIZZA INDIA</strong>
+        <small>INDIAN PIZZA COMPANY</small>
+      </span>
+    </a>
+
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#story">About Us</a>
+      <a href="#contact">Contact</a>
+      <a href="#menu" class="nav-btn">Order Now ↗</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+
+      <div class="hero-content reveal">
+        <div class="eyebrow">
+          <span></span> FRESHLY BAKED IN JASRA
+        </div>
+
+
+        <h1>
+          A little more<br>
+          <em>cheese.</em> A lot<br>
+          more happiness.
+        </h1>
+
+
+        <p>
+          Good times taste better with a hot, cheesy pizza.
+          Find your favourite slice and make every craving count.
+        </p>
+
+
+        <div class="hero-buttons">
+          <a href="#menu" class="primary-btn">Explore Menu <span>→</span></a>
+          <a href="#contact" class="text-btn">Find Our Store ↗</a>
+        </div>
+
+
+        <div class="hero-location">
+          <span class="star">★★★★★</span>
+          <div>
+            <strong>Pizza Lovers, Welcome!</strong>
+            <small>Jasra, Prayagraj</small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="hero-visual reveal">
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+
+
+        <img
+          src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1000&auto=format&fit=crop"
+          alt="Delicious fresh pizza"
+          class="hero-pizza"
+        >
+
+
+        <div class="floating-badge">
+          <span>✦</span>
+          MADE WITH<br>LOVE
+        </div>
+
+
+        <div class="pizza-stamp">
+          PIZZA<br><strong>TIME</strong>
+        </div>
+      </div>
+
+
+      <div class="hero-bottom">
+        <span>01 / FRESHLY MADE</span>
+        <span>SCROLL TO DISCOVER ↓</span>
+        <span>JASRA · PRAYAGRAJ</span>
+      </div>
+
+
+    </section>
+
+
+    <!-- TICKER -->
+    <div class="ticker">
+      <div>
+        CHEESY BITES ✦ GOOD VIBES ✦ FRESHLY BAKED ✦
+        MADE FOR YOU ✦ CHEESY BITES ✦ GOOD VIBES ✦
+      </div>
+    </div>
+
+
+    <!-- MENU -->
+    <section class="section menu-section" id="menu">
+
+
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span></span> SOMETHING FOR EVERY CRAVING</div>
+          <h2>Meet your new<br><em>favourite.</em></h2>
+        </div>
+
+
+        <p>
+          From timeless classics to loaded favourites,
+          pick a slice that makes your day.
+        </p>
+      </div>
+
+
+      <div class="menu-controls reveal">
+
+
+        <div class="filters">
+          <button class="filter active" data-filter="all">All Items</button>
+          <button class="filter" data-filter="classic">Classic</button>
+          <button class="filter" data-filter="loaded">Loaded</button>
+          <button class="filter" data-filter="sides">Sides</button>
+          <button class="filter" data-filter="drinks">Drinks</button>
+        </div>
+
+
+        <div class="search-box">
+          <span>⌕</span>
+          <input type="search" id="menuSearch" placeholder="Search menu...">
+        </div>
+
+
+      </div>
+
+
+      <div class="menu-grid" id="menuGrid">
+
+
+        <article class="food-card reveal" data-category="classic" data-name="margherita">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=700&auto=format&fit=crop" alt="Margherita Pizza">
+            <span class="food-tag">CLASSIC</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Margherita</h3>
+              <p>Classic tomato, herbs and cheese.</p>
+            </div>
+            <strong>₹129</strong>
+          </div>
+          <button class="add-order" data-item="Margherita - ₹129">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="classic" data-name="onion pizza">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=700&auto=format&fit=crop" alt="Onion Pizza">
+            <span class="food-tag">SIMPLE & TASTY</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Onion Pizza</h3>
+              <p>Crunchy onion with melted cheese.</p>
+            </div>
+            <strong>₹119</strong>
+          </div>
+          <button class="add-order" data-item="Onion Pizza - ₹119">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="classic" data-name="corn capsicum">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=700&auto=format&fit=crop" alt="Corn Capsicum Pizza">
+            <span class="food-tag">VEGGIE LOVE</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Corn & Capsicum</h3>
+              <p>Sweet corn, capsicum and cheese.</p>
+            </div>
+            <strong>₹149</strong>
+          </div>
+          <button class="add-order" data-item="Corn and Capsicum Pizza - ₹149">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="loaded" data-name="paneer tikka">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=700&auto=format&fit=crop" alt="Paneer Tikka Pizza">
+            <span class="food-tag">LOADED</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Paneer Tikka</h3>
+              <p>Spiced paneer, onion and capsicum.</p>
+            </div>
+            <strong>₹189</strong>
+          </div>
+          <button class="add-order" data-item="Paneer Tikka Pizza - ₹189">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="loaded" data-name="farm fresh veggie">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700&auto=format&fit=crop" alt="Farm Fresh Pizza">
+            <span class="food-tag">FAN FAVOURITE</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Farm Fresh Veggie</h3>
+              <p>A colourful mix of fresh toppings.</p>
+            </div>
+            <strong>₹179</strong>
+          </div>
+          <button class="add-order" data-item="Farm Fresh Veggie Pizza - ₹179">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="loaded" data-name="double cheese">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1552539618-7eec9b4d1796?w=700&auto=format&fit=crop" alt="Double Cheese Pizza">
+            <span class="food-tag">EXTRA CHEESY</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Double Cheese</h3>
+              <p>Extra cheese for extra happiness.</p>
+            </div>
+            <strong>₹199</strong>
+          </div>
+          <button class="add-order" data-item="Double Cheese Pizza - ₹199">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="sides" data-name="garlic bread">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1619531040576-f9416d9b7e7b?w=700&auto=format&fit=crop" alt="Garlic Bread">
+            <span class="food-tag">ON THE SIDE</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Garlic Bread</h3>
+              <p>Toasty and full of garlic goodness.</p>
+            </div>
+            <strong>₹99</strong>
+          </div>
+          <button class="add-order" data-item="Garlic Bread - ₹99">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="sides" data-name="cheesy fries">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=700&auto=format&fit=crop" alt="Cheesy Fries">
+            <span class="food-tag">CRUNCH TIME</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Cheesy Fries</h3>
+              <p>Golden fries with a cheesy finish.</p>
+            </div>
+            <strong>₹89</strong>
+          </div>
+          <button class="add-order" data-item="Cheesy Fries - ₹89">Add to Order <span>＋</span></button>
+        </article>
+
+
+        <article class="food-card reveal" data-category="drinks" data-name="cold drink">
+          <div class="food-image">
+            <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=700&auto=format&fit=crop" alt="Cold Drink">
+            <span class="food-tag">CHILL OUT</span>
+          </div>
+          <div class="food-info">
+            <div>
+              <h3>Cold Drink</h3>
+              <p>A chilled sip with your pizza.</p>
+            </div>
+            <strong>₹40</strong>
+          </div>
+          <button class="add-order" data-item="Cold Drink - ₹40">Add to Order <span>＋</span></button>
+        </article>
+
+
+      </div>
+
+
+      <p class="menu-disclaimer">
+        Note: This is a proposed sample menu. Actual items and prices must be confirmed by Pizza India.
+      </p>
+
+
+    </section>
+
+
+    <!-- COMBO SECTION -->
+    <section class="combo-section">
+      <div class="combo-content reveal">
+        <div class="eyebrow light"><span></span> SHARE THE HAPPINESS</div>
+        <h2>Good pizza.<br><em>Better together.</em></h2>
+        <p>
+          Make your next hangout a little more delicious.
+          Ask us about available combo options.
+        </p>
+        <a href="#contact" class="light-btn">Ask for Combos →</a>
+      </div>
+
+
+      <div class="combo-image reveal">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1000&auto=format&fit=crop" alt="Pizza Combo">
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section story-section" id="story">
+
+
+      <div class="story-image reveal">
+        <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?w=900&auto=format&fit=crop" alt="Pizza preparation">
+        <span>A SLICE OF HAPPINESS, EVERY TIME.</span>
+      </div>
+
+
+      <div class="story-content reveal">
+        <div class="eyebrow"><span></span> A LOCAL PIZZA SPOT</div>
+        <h2>Made for<br>your <em>moments.</em></h2>
+
+
+        <p>
+          Whether it's a quick bite, a catch-up with friends
+          or a little treat after a long day, Pizza India is
+          here to make the moment tastier.
+        </p>
+
+
+        <p>
+          Visit our Jasra outlet and enjoy a relaxed,
+          feel-good pizza experience.
+        </p>
+
+
+        <a href="#contact" class="text-btn">Come Say Hello ↗</a>
+      </div>
+
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+
+
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span></span> LET'S MAKE IT A PIZZA DAY</div>
+          <h2>Craving a slice?<br><em>We're nearby.</em></h2>
+        </div>
+
+
+        <p>
+          Visit our Jasra outlet or contact us
+          for menu and availability.
+        </p>
+      </div>
+
+
+      <div class="contact-grid">
+
+
+        <div class="contact-card reveal">
+          <div class="contact-icon">⌖</div>
+          <small>FIND US</small>
+          <h3>Pizza India, Jasra</h3>
+          <p>Near Jasra CSC, Jasra, Prayagraj, Uttar Pradesh 212107.</p>
+          <a href="https://maps.app.goo.gl/U2vsNkzLQtzNHbu98?g_st=ac" target="_blank" rel="noopener">Get Directions ↗</a>
+        </div>
+
+
+        <div class="contact-card reveal">
+          <div class="contact-icon">☎</div>
+          <small>CALL OR WHATSAPP</small>
+          <h3>95064 31067</h3>
+          <p>Contact us to ask about today's menu and orders.</p>
+          <a href="tel:+919506431067">Call Now ↗</a>
+        </div>
+
+
+        <div class="contact-card reveal">
+          <div class="contact-icon">◷</div>
+          <small>OPEN EVERY DAY</small>
+          <h3>10 AM – 10 PM</h3>
+          <p>Drop in for a quick bite or a pizza break.</p>
+          <a href="https://wa.me/919506431067" target="_blank" rel="noopener">WhatsApp Us ↗</a>
+        </div>
+
+
+      </div>
+
+
+      <!-- EMBEDDED GOOGLE MAP -->
+      <div class="map-heading reveal">
+        <div>
+          <div class="eyebrow"><span></span> OUR LOCATION</div>
+          <h2>Find us <em>here.</em></h2>
+        </div>
+        <a href="https://maps.app.goo.gl/U2vsNkzLQtzNHbu98?g_st=ac" target="_blank" rel="noopener" class="text-btn">Open in Google Maps ↗</a>
+      </div>
+
+
+      <div class="map-container reveal">
+        <iframe
+          title="Pizza India location on Google Maps"
+          src="https://www.google.com/maps?q=Pizza%20India%20Jasra%20Prayagraj&output=embed"
+          width="100%"
+          height="400"
+          style="border:0"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+
+    </section>
+
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+
+    <div class="footer-main">
+
+
+      <a href="#home" class="brand footer-brand">
+        <img src="assets/pizza-india-logo.jpg" alt="Pizza India Logo">
+        <span>
+          <strong>PIZZA INDIA</strong>
+          <small>INDIAN PIZZA COMPANY</small>
+        </span>
+      </a>
+
+
+      <p>Fresh cravings. Happy moments.<br>See you for a slice.</p>
+
+
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Pizza India. All rights reserved.</span>
+      <span>JASRA · PRAYAGRAJ</span>
+    </div>
+
+
+    <div class="developer-credit">
+      Website Crafted By DestiQora 🩷
+    </div>
+
+
+  </footer>
+
+
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-actions">
+
+
+    <a href="tel:+919506431067" class="call-float" aria-label="Call Pizza India">
+      ☎
+    </a>
+
+
+    <a
+      href="https://wa.me/919506431067?text=Hello%20Pizza%20India%2C%20I%20want%20to%20know%20about%20your%20menu."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="WhatsApp Pizza India">
+      ✆
+    </a>
+
+
+  </div>
+
+
+  <div class="toast" id="toast"></div>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
+
